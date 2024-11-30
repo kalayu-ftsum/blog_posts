@@ -30,7 +30,7 @@ const blogPosts=[{
 export default function BlogBlock() {
   return (
     <section id="blog-block">
-    <div className="">
+    <div className=" mt-24">
         <SwipeComponent>
         {
             blogPosts.map(post => <BlogBlockCard key={post.key} title={post.title} imgUrl={post.imgUrl} />)
