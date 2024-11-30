@@ -52,6 +52,7 @@ export default function OurGallery() {
       return () => {if(isotope) {
         isotope.destroy()
     }};
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isotopeContainer]);
   
     const handleFilterChange = (filterValue) => {
