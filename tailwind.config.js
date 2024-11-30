@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 import plugin from "tailwindcss/plugin";
 
@@ -23,6 +24,7 @@ export default {
       addBase({
         html : { color: theme("colors.bodyColor") },
       });
-    })
+    }),
+    require('@tailwindcss/forms'),
   ]
 }

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import BlogCards from "../components/home/BlogCards";
 import FeaturedPosts from "../components/home/FeaturedPosts";
 import BlogBlock from "../components/BlogBlock";
+import CTA from "../components/CTA";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <BlogCards />
         <FeaturedPosts />
         <BlogBlock />
+        <CTA />
     </div>
   )
 }
