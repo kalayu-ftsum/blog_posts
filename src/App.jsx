@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Layout>
   <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     </Layout>
