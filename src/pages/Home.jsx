@@ -4,6 +4,7 @@ import BlogCards from "../components/home/BlogCards";
 import FeaturedPosts from "../components/home/FeaturedPosts";
 import BlogBlock from "../components/BlogBlock";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <FeaturedPosts />
         <BlogBlock />
         <CTA />
+        <Footer />
     </div>
   )
 }
