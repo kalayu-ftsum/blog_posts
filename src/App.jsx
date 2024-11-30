@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Gallery from "./pages/Gallery";
 import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/faq" element={<FAQ />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     </Layout>
