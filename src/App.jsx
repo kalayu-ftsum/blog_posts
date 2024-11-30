@@ -1,3 +1,6 @@
+
+import { Routes, Route } from "react-router";
+
 import "./App.css";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
@@ -5,9 +8,11 @@ import Layout from "./pages/Layout";
 function App() {
   return (
     <>
-      <Layout>
-        <Home />
-      </Layout>
+    <Layout>
+  <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+    </Layout>
     </>
   );
 }
