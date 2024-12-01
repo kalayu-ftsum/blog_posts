@@ -63,7 +63,7 @@ export default function Footer() {
 
             <div className=" mt-3 flex lg:justify-end">
               <NavLink 
-                  to="https://www.facebook.com/sharer/sharer.php?u=https://blog_post.com" 
+                  to="https://www.facebook.com/sharer/sharer.php?u=https://blog-posts-rouge.vercel.app/" 
               className="social-link text-xl hover:text-gray-500 me-4" target="_blank"><Icon
                   className="social-icon" icon="mdi:facebook" /></NavLink>
               <NavLink 
@@ -91,7 +91,7 @@ export default function Footer() {
 
       <footer className="border-t ">
         <div className="flex justify-center pt-10">
-          <p className="mb-0">© 2024 Amanda. All rights reserved.</p>
+          <p className="mb-0">© 2024 BlogPosts. All rights reserved.</p>
         </div>
       </footer>
 
